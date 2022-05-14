@@ -33,4 +33,40 @@ simple: react-simple-code-editor（只有简单的高亮功能）
 
 ---
 
-TODO：过几天把手机里的笔记同步到这里
+## 深拷贝
+
+TAG: JavaScript
+DATE: 2022/05/14
+
+[structuredClone](https://developer.mozilla.org/zh-CN/docs/web/api/structuredClone) 提供深拷贝功能。利用结构化克隆算法。支持循环引用，但是不支持函数属性。core-js 提供了 polyfill。
+
+一个之前学的一个深拷贝实现：
+
+```javascript
+function deepClone(target, map = new Map()) {
+  if (typeof target === 'object' && target !== null) {
+    const cache = map.get(target);
+    if (cache) {
+      return cache;
+    }
+
+    const result = Array.isArray(target) ? [] : {};
+    map.set(target, result);
+    
+    if (Array.isArray(target)) {
+      target.forEach((item, index) => {
+        result[index] = deepClone(item, map);
+      })
+    } else {
+      for (let )
+      Object.keys(target).forEach((key) => {
+        result[key] = deepClone(target[key], map);
+      });
+    }
+
+    return result;
+  } else {
+      return target;
+  }
+}
+```
