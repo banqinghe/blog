@@ -297,7 +297,7 @@ List的排序使用`Collections.sort()`方法，用法和`Arrays.sort()`相同�
 
 网上只能找到这张不是有水印的图，是书中第17章第一节的插图：
 
-![完整的容器分类](https://gitee.com/banqinghe/blog-images/raw/master/《Java编程思想》读书笔记-——-第17章-容器深入研究/FullContainerTaxonomy.png)
+![完整的容器分类](https://raw.githubusercontent.com/banqinghe/blog/main/images/《Java编程思想》读书笔记-——-第17章-容器深入研究/FullContainerTaxonomy.png)
 
 这章还是讲了很多方法的使用，对于Set和Map的原理进行了一定程度的探讨，关于排序的部分，由于和前一章内容基本重合，就没有多写。书中花了很大心思写了一个针对容器的测试框架，由于依赖之前的类我就没有照着敲一遍，用事实向读者展示了各容器在进行多种操作时的速度差异。
 

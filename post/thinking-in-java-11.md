@@ -6,7 +6,7 @@
 
 书本的总结部分有着下面这张图，展示了容器之间的关系。实线框表示普通类，虚线框表示接口，空心箭头表示接口的实线，实心箭头表示某个类可以生成箭头所指向类的对象。
 
-![](https://gitee.com/banqinghe/blog-images/raw/master/%E3%80%8AJava%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E2%80%94%E2%80%94-%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0-%E6%8C%81%E6%9C%89%E5%AF%B9%E8%B1%A1/%E7%AE%80%E5%8D%95%E7%9A%84%E5%AE%B9%E5%99%A8%E5%88%86%E7%B1%BB.png)
+![](https://raw.githubusercontent.com/banqinghe/blog/main/images/%E3%80%8AJava%E7%BC%96%E7%A8%8B%E6%80%9D%E6%83%B3%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E2%80%94%E2%80%94-%E7%AC%AC%E5%8D%81%E4%B8%80%E7%AB%A0-%E6%8C%81%E6%9C%89%E5%AF%B9%E8%B1%A1/%E7%AE%80%E5%8D%95%E7%9A%84%E5%AE%B9%E5%99%A8%E5%88%86%E7%B1%BB.png)
 
 上面提到的四种基本集合类中，`List`，`Set`，`Queue`是`Collection`类型，而`Map`是另一种独立的类型，至于`Map`指向`Collection`实心箭头，我的理解是`Map`类的对象可以使用`keySet()`、`entrySet()`方法产生`Set`，这是`Collection`类型。
 
@@ -41,7 +41,7 @@ Java容器类分为两个不同的概念，分别是`Collection`和`Map`
 
 四种基本类型**List，Set，Queue，Map**可以进行如下的分类：
 
-<img src="https://gitee.com/banqinghe/blog-images/raw/master/《Java编程思想》读书笔记-——-第十一章-持有对象/容器类的分类.png" alt="容器类的分类" style="zoom: 80%;" />
+<img src="https://raw.githubusercontent.com/banqinghe/blog/main/images/《Java编程思想》读书笔记-——-第十一章-持有对象/容器类的分类.png" alt="容器类的分类" style="zoom: 80%;" />
 
 当使用一个具体的容器对象的时候，往往建议将它向上转型成为接口来使用，例：
 
@@ -102,7 +102,7 @@ for(Integer i : c)
 
 书中给出了如下继承关系的一组类：
 
-<img src="https://gitee.com/banqinghe/blog-images/raw/master/《Java编程思想》读书笔记-——-第十一章-持有对象/AsListInference.png" alt="AsListInference.java" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/banqinghe/blog/main/images/《Java编程思想》读书笔记-——-第十一章-持有对象/AsListInference.png" alt="AsListInference.java" style="zoom:80%;" />
 
 ```java Arrays.asList()
 // List<Snow> snow = Arrays.asList(new Light(), new Heavy())

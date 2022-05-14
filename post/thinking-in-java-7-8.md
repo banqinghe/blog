@@ -67,7 +67,7 @@ Father obj = new Son()
 
 具体的实现为，在原本的父类和子类中间加上一个代理类。即代理类中生成原本的父类中的对象，并把需要的方法封装展示给外界，然后，原本的子类只需要继承这个代理类，就可以获得有限的原本父类的方法了：
 
-<img src="https://gitee.com/banqinghe/blog-images/raw/master/《Java编程思想》读书笔记-——-第七章-复用类，第八章-多态/使用代理.png" style="zoom:60%" />
+<img src="https://raw.githubusercontent.com/banqinghe/blog/main/images/《Java编程思想》读书笔记-——-第七章-复用类，第八章-多态/使用代理.png" style="zoom:60%" />
 
 网上关于代理还有静态代理和动态代理的区别，我没有细看，所以这里应该只是最基础简单的说法。
 

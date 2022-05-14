@@ -132,7 +132,7 @@ ul {
 
 支持 markdown 和微博表情，好看的：
 
-![waline test](../images/rewrite-blog-with-vite/waline-test.png)
+![waline test](https://raw.githubusercontent.com/banqinghe/blog/main/images/rewrite-blog-with-vite/waline-test.png)
 
 ## Vercel 部署
 

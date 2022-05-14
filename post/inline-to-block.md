@@ -65,7 +65,7 @@
 
 代码根据针对5种定位情况下的伪元素`::before`都设置了`width`和`height`，显示结果如下：
 
-![](https://gitee.com/banqinghe/blog-images/raw/master/inline%E5%85%83%E7%B4%A0%E8%87%AA%E5%8A%A8%E5%8F%98%E4%B8%BAblock%E5%85%83%E7%B4%A0%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%83%85%E5%86%B5/5%E7%A7%8D%E5%AE%9A%E4%BD%8D.png)
+![](https://raw.githubusercontent.com/banqinghe/blog/main/images/inline%E5%85%83%E7%B4%A0%E8%87%AA%E5%8A%A8%E5%8F%98%E4%B8%BAblock%E5%85%83%E7%B4%A0%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%83%85%E5%86%B5/5%E7%A7%8D%E5%AE%9A%E4%BD%8D.png)
 
 可以很清楚地看到，使用`absolute`或`fixed`定位时，伪元素时block元素，因此`width`和`height`能够生效，但是使用其他三种定位时对宽度和高度的设置则均不生效。
 
@@ -107,7 +107,7 @@
 
 显示结果：
 
-![](https://gitee.com/banqinghe/blog-images/raw/master/inline%E5%85%83%E7%B4%A0%E8%87%AA%E5%8A%A8%E5%8F%98%E4%B8%BAblock%E5%85%83%E7%B4%A0%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%83%85%E5%86%B5/%E4%BD%BF%E7%94%A8flex.png)
+![](https://raw.githubusercontent.com/banqinghe/blog/main/images/inline%E5%85%83%E7%B4%A0%E8%87%AA%E5%8A%A8%E5%8F%98%E4%B8%BAblock%E5%85%83%E7%B4%A0%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%83%85%E5%86%B5/%E4%BD%BF%E7%94%A8flex.png)
 
 flex布局时针对`::before`的`width`和`height`竟然全部都生效了，与此同时，`<span>`元素也被转化为了block元素，所以宽度和高度设置也生效了。`<span>`作为inline元素，也被`flex`布局转化为了block元素。
 

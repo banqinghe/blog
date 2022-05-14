@@ -93,7 +93,7 @@
 
 一个带箭头的对话框其实就是一个矩形和三角形的组合：
 
-![](https://gitee.com/banqinghe/blog-images/raw/master/CSS%E5%AE%9E%E7%8E%B0%E4%B8%89%E8%A7%92%E5%BD%A2%E5%92%8C%E5%AF%B9%E8%AF%9D%E6%A1%86%E7%AE%AD%E5%A4%B4/%E5%AF%B9%E8%AF%9D%E6%A1%86.png)
+![](https://raw.githubusercontent.com/banqinghe/blog/main/images/CSS%E5%AE%9E%E7%8E%B0%E4%B8%89%E8%A7%92%E5%BD%A2%E5%92%8C%E5%AF%B9%E8%AF%9D%E6%A1%86%E7%AE%AD%E5%A4%B4/%E5%AF%B9%E8%AF%9D%E6%A1%86.png)
 
 这里的箭头我们一般使用`::before`或`::after`来实现：
 
@@ -163,7 +163,7 @@
 
 实现的结果：
 
-![](https://gitee.com/banqinghe/blog-images/raw/master/CSS%E5%AE%9E%E7%8E%B0%E4%B8%89%E8%A7%92%E5%BD%A2%E5%92%8C%E5%AF%B9%E8%AF%9D%E6%A1%86%E7%AE%AD%E5%A4%B4/%E5%AF%B9%E8%AF%9D%E6%A1%862.png)
+![](https://raw.githubusercontent.com/banqinghe/blog/main/images/CSS%E5%AE%9E%E7%8E%B0%E4%B8%89%E8%A7%92%E5%BD%A2%E5%92%8C%E5%AF%B9%E8%AF%9D%E6%A1%86%E7%AE%AD%E5%A4%B4/%E5%AF%B9%E8%AF%9D%E6%A1%862.png)
 
 这种方法我是在《CSS揭秘》（<cite>CSS Secrets</cite>）上看到的，作者其实是想使用这个例子说明CSS中`inherit`为我们带来的便利。对于伪元素来说，它会继承宿主元素的属性值，因此我们能够方便直观地设置三角箭头的背景颜色和边框样式。
 

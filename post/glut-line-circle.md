@@ -107,7 +107,7 @@ DDA算法容易实现，非常直观，但是缺点也很明显，因为涉及�
 
 在绘出点$(x_{i},y_{i})$后，要确定$(x_{I+1}, y_{i+1})$的位置，实际上就是确定$(x_{i+1},y_{i+1})$是在下一个网格线段中点的上方还是下方，如图：
 
-![](https://gitee.com/banqinghe/blog-images/raw/master/Glut绘制直线和圆/中点Bresenham算法.png)
+![](https://raw.githubusercontent.com/banqinghe/blog/main/images/Glut绘制直线和圆/中点Bresenham算法.png)
 
 对于判断直线点在直线上还是在直线下，利用直线方程可以很容易地做到，即对于直线$y=kx+b$，可以令函数$F(x,y)=y-kx-b$，对于点$(x,y)$：
 
@@ -307,7 +307,7 @@ void MyDraw::BresenhamDrawCircle()
 
 成果的展示就是一个圈圈……
 
-![](https://gitee.com/banqinghe/blog-images/raw/master/Glut绘制直线和圆/圆形.png)
+![](https://raw.githubusercontent.com/banqinghe/blog/main/images/Glut绘制直线和圆/圆形.png)
 
 <br>
 

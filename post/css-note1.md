@@ -712,7 +712,7 @@ background-position: 10px 20px,  top right;
 
 如果我们规定了宽度，横向书写文字出错，但是纵向书写文字的时候就可能因为宽度不够而使内容超出边框。
 
-<img src="https://gitee.com/banqinghe/blog-images/raw/master/CSS%E7%AC%94%E8%AE%B0-1-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E7%BA%B5%E5%90%91%E6%96%87%E5%AD%97%E6%BA%A2%E5%87%BA.png" style="width: 10em">
+<img src="https://raw.githubusercontent.com/banqinghe/blog/main/images/CSS%E7%AC%94%E8%AE%B0-1-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E7%BA%B5%E5%90%91%E6%96%87%E5%AD%97%E6%BA%A2%E5%87%BA.png" style="width: 10em">
 
 
 

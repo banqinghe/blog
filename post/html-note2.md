@@ -202,7 +202,7 @@
 
 即使代码中么有写，tbody也是被浏览器隐式添加的：
 
-![被隐式添加的tbody](https://gitee.com/banqinghe/blog-images/raw/master/HTML%E7%AC%94%E8%AE%B0-2-%E8%A1%A8%E6%A0%BC%E5%92%8C%E8%A1%A8%E5%8D%95/tbody.png)
+![被隐式添加的tbody](https://raw.githubusercontent.com/banqinghe/blog/main/images/HTML%E7%AC%94%E8%AE%B0-2-%E8%A1%A8%E6%A0%BC%E5%92%8C%E8%A1%A8%E5%8D%95/tbody.png)
 
 即使`<tfoot>`写在`<thead>`下面，它仍然会在表格的最后显示。
 

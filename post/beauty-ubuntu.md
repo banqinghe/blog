@@ -18,9 +18,7 @@ sudo apt install gnome-tweak-tool
 
 以下是我自己的外观配置：
 
-![](https://gitee.com/banqinghe/blog-images/raw/master/Ubuntu18-04的美化和配置/1.png)
-
-
+![](https://raw.githubusercontent.com/banqinghe/blog/main/images/Ubuntu18-04的美化和配置/1.png)
 
 对于主题，我选择的是`Vimix`，图标选择为`Papirus`，shell主题选择的是`Tango暗色`，感觉动画开起来怪怪的，关闭了看起来舒服点。
 
@@ -115,7 +113,7 @@ deepin真的是超级良心！我对这些软件的安装经验基本都是来�
 
 **3. Ubuntu 18.04 Gnome桌面显示传统托盘图标：**安装TopIconPlus的gnome-shell扩展，命令：`sudo apt-get install gnome-shell-extension-top-icons-plus gnome-tweaks`，然后用gnome-tweaks开启这个扩展。（这个扩展真的好！）
 
-![](https://gitee.com/banqinghe/blog-images/raw/master/Ubuntu18-04的美化和配置/2.png)
+![](https://raw.githubusercontent.com/banqinghe/blog/main/images/Ubuntu18-04的美化和配置/2.png)
 
 
 
@@ -156,7 +154,7 @@ deepin真的是超级良心！我对这些软件的安装经验基本都是来�
 
 在末尾处添加进`chinese`文件夹：
 
-![](https://gitee.com/banqinghe/blog-images/raw/master/Ubuntu18-04的美化和配置/3.png)
+![](https://raw.githubusercontent.com/banqinghe/blog/main/images/Ubuntu18-04的美化和配置/3.png)
 
 
 
@@ -225,10 +223,10 @@ dpkg-reconfigure --force locales
 
 应该是因为要安装扩展，需要安装一个组件，可是chrome的插件就是装不上去（不是很好解决的样子），听网上大佬的建议换成Firefox，这个问题就没了……
 点击右上角的开关，一键完成
-![](https://gitee.com/banqinghe/blog-images/raw/master/Ubuntu18-04%E7%9A%84%E7%BE%8E%E5%8C%96%E5%92%8C%E9%85%8D%E7%BD%AE/4.png)
+![](https://raw.githubusercontent.com/banqinghe/blog/main/images/Ubuntu18-04%E7%9A%84%E7%BE%8E%E5%8C%96%E5%92%8C%E9%85%8D%E7%BD%AE/4.png)
 再搞一张小米的壁纸，就是这个样子😋
 
-![](https://gitee.com/banqinghe/blog-images/raw/master/Ubuntu18-04%E7%9A%84%E7%BE%8E%E5%8C%96%E5%92%8C%E9%85%8D%E7%BD%AE/5.png)
+![](https://raw.githubusercontent.com/banqinghe/blog/main/images/Ubuntu18-04%E7%9A%84%E7%BE%8E%E5%8C%96%E5%92%8C%E9%85%8D%E7%BD%AE/5.png)
 
 ps：扩展的开启关闭可以在tweaks中选择
 

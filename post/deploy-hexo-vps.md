@@ -239,7 +239,7 @@ hexo d
 
 没有SSL证书的网站无法通过`https`协议访问，用`http`访问的时候总是会被浏览器打上一个“不安全”的标签。个人博客嘛，本来就没有什么值得多加保护的数据，但是没有`https`看起来不太舒服。网上有多种免费SSL证书的获取途径，因为我半道退了vultr的款，换成了阿里云，所以就直接用了阿里云平台上提供的免费证书，下载下来之后是两个文件：
 
-![SSL证书](https://gitee.com/banqinghe/blog-images/raw/master/%E5%B0%86hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E8%87%B3VPS/SSL.png)
+![SSL证书](https://raw.githubusercontent.com/banqinghe/blog/main/images/%E5%B0%86hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E8%87%B3VPS/SSL.png)
 
 在服务器上的`/etc/nginx`下创建`cert`目录，把本地的`key`文件和`pem`文件上传至服务器端：
 

@@ -8,7 +8,7 @@ wepack是一种前端资源构建工具，一个静态模块打包工具。前�
 
 webpack将需要打包成的资源划分成多个模块（chunk），并将它们打包生成目标文件bundle：
 
-![webpack打包流程](https://gitee.com/banqinghe/blog-images/raw/master/webpack%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/webpack%E6%89%93%E5%8C%85%E6%B5%81%E7%A8%8B.png)
+![webpack打包流程](https://raw.githubusercontent.com/banqinghe/blog/main/images/webpack%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/webpack%E6%89%93%E5%8C%85%E6%B5%81%E7%A8%8B.png)
 
 从上图我们可以看到，一个chunk其实就是靠依赖关系连接起来的一个文件资源的集合，webpack首先会对其中的文件进行处理（如把less格式转化为css格式），然后将处理后的资源进行打包。
 
@@ -190,7 +190,7 @@ plugins: [
 
 看如下示例：
 
-<img src="https://gitee.com/banqinghe/blog-images/raw/master/webpack%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/pack-img.png" width="280">
+<img src="https://raw.githubusercontent.com/banqinghe/blog/main/images/webpack%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/pack-img.png" width="280">
 
 `src`中有3张图片，但是打包之后输出的文件只有张了。这是因为其中的`github.png`这张图到只有5.1KB的大小，所以被转化为了base64的字符码。在`build.js`文件中可以找到这一串字符：
 

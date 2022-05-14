@@ -453,7 +453,7 @@ a[href*="http"] {
 - `background`中的`100% 0`指明了链接的位置，在最右测，与上方距离为0，且避免了图像的重复。
 - `padding-right`在链接文本右侧为图标预留了位置。
 
-![效果展示](https://gitee.com/banqinghe/blog-images/raw/master/CSS%E7%AC%94%E8%AE%B0-2-%E6%A0%B7%E5%BC%8F%E5%8C%96%E5%92%8C%E5%B8%83%E5%B1%80/%E9%93%BE%E6%8E%A5%E5%9B%BE%E6%A0%87.png)
+![效果展示](https://raw.githubusercontent.com/banqinghe/blog/main/images/CSS%E7%AC%94%E8%AE%B0-2-%E6%A0%B7%E5%BC%8F%E5%8C%96%E5%92%8C%E5%B8%83%E5%B1%80/%E9%93%BE%E6%8E%A5%E5%9B%BE%E6%A0%87.png)
 
 `a[href*="http"] `为属性选择器的语法，表示`href`属性中包含`http`的元素。
 
@@ -555,7 +555,7 @@ html代码：
 - 设置了 `display: flex` 的父元素被称之为 **flex 容器（flex container）。**
 - 在 flex 容器中表现为柔性的盒子的元素被称之为 **flex 项**（**flex item**）
 
-![flex model](https://gitee.com/banqinghe/blog-images/raw/master/CSS%E7%AC%94%E8%AE%B0-2-%E6%A0%B7%E5%BC%8F%E5%8C%96%E5%92%8C%E5%B8%83%E5%B1%80/flex_terms.png)
+![flex model](https://raw.githubusercontent.com/banqinghe/blog/main/images/CSS%E7%AC%94%E8%AE%B0-2-%E6%A0%B7%E5%BC%8F%E5%8C%96%E5%92%8C%E5%B8%83%E5%B1%80/flex_terms.png)
 
 **方向和宽度**
 
@@ -703,7 +703,7 @@ repeat函数和minmax函数可以很好地配合：
 
 当我们定义好网格之后，就可以决定每个元素放在哪个格子里，线的序号从1开始，按照书写方向递增（我们的书写方向是从左至右，从上到下），也可以使用负数倒过来标序号，示意图如下：
 
-![grid line](https://gitee.com/banqinghe/blog-images/raw/master/CSS%E7%AC%94%E8%AE%B0-2-%E6%A0%B7%E5%BC%8F%E5%8C%96%E5%92%8C%E5%B8%83%E5%B1%80/grid-lines.png)
+![grid line](https://raw.githubusercontent.com/banqinghe/blog/main/images/CSS%E7%AC%94%E8%AE%B0-2-%E6%A0%B7%E5%BC%8F%E5%8C%96%E5%92%8C%E5%B8%83%E5%B1%80/grid-lines.png)
 
 最前面的线可以用`grid-column-start`，`grid-row-start`表示，末尾的线可以使用`grid-column-end`和`grid-row-end`代替。
 
