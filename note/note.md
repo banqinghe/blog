@@ -70,3 +70,31 @@ function deepClone(target, map = new Map()) {
   }
 }
 ```
+
+---
+
+## JSX 中的多条件渲染
+
+TAG: JSX
+DATE: 2022/05/15
+
+从 TypeScript 官网看到的写法，利用对象在 JSX 中模拟 switch 语句
+
+```jsx
+<div>
+  {{
+    0: (
+      <ShowErrorsExample />
+    ),
+    1: (
+      <TypeDefinitionsExample />
+    ),
+    2: (
+      <InterfaceExample />
+    ),
+    3: (
+    <ReactExample />
+    ),
+  }[index]}
+</div>
+```

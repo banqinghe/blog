@@ -1,5 +1,13 @@
 [
   {
+    "title": "《TypeScript 编程》笔记",
+    "filename": "programming-typescript-note",
+    "date": "2022-05-17 15:16:50",
+    "description": "用了一个很帅的库 shiki-twoslash",
+    "link": "https://banqinghe.gitghub.io/programming-typescript-note/",
+    "tags": ["TypeScript", "Reading Note"]
+  },
+  {
     "title": "WebGL Guide Note",
     "filename": "webgl-guide-note",
     "date": "2022-01-12 22:51:06",
