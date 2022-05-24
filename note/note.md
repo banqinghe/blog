@@ -1,35 +1,82 @@
-## queueMicrotask
+## yocto-queue 和 p-limit
 
 TAG: JavaScript
-DATE: 2022/05/09
+DATE: 2022/05/24
 
-`queueMicrotask(fn)` 方法可以创建一个微任务，比 `Promise.resolve()` 更好用。
+原生 JavaScript 的 `Array.prototype.shift()` 时间复杂度是 O(N) 的，如果有一个较大的队列需要经常做 `shift` 操作，使用 `yocto-queue` 是个更好的选择。
 
-[在 JavaScript 中通过 queueMicrotask() 使用微任务](https://developer.mozilla.org/zh-CN/docs/Web/API/HTML_DOM_API/Microtask_guide)
+这是 `p-limit` 的依赖库，`p-limit` 是做 `Promise.all` 限流的库。在有关限流的 StackOverflow 问题里，一个使用 `await` + `splice` 的方法也能达到限流效果，很巧妙。
+
+[What is the best way to limit concurrency when using ES6's Promise.all()?](https://stackoverflow.com/questions/40639432/what-is-the-best-way-to-limit-concurrency-when-using-es6s-promise-all)
 
 ---
 
-## <details> 和 <summary>
+## !important
 
-TAG: HTML
-DATE: 2022/05/09
+TAG: CSS
 
-在 MDN 侧边栏发现的。这两个元素配合可实现原生的 展开  ⇄ 闭合 效果。
+`!important` 优先级大于内联样式。
 
-```html
-<details>
-  <summary>Details</summary>
-  Something small enough to escape casual notice.
-</details>
+google translate 插件的浮窗 `z-index` 值是 1201，有时候会被更大的 `z-index` 覆盖。
+
+---
+
+## CSS counter
+
+TAG: CSS
+DATE: 2022/05/21
+
+CSS `counter()` 函数
+
+```css
+
 ```
 
 ---
 
-## Web Code Editor
+## :focus-within
 
-complex：Monaco，CodeMirror，Ace
+TAG: CSS
+DATE: 2022/05/19
 
-simple: react-simple-code-editor（只有简单的高亮功能）
+`:focus-within` 伪类：当该元素或该元素的子元素获取焦点的时候生效（即该元素或子元素触发 `:focus`）。在 daisyui 组件库中实现 dropdown 组件时使用到，用于切换 dropdown content 是否展示。
+
+```css
+.dropdown.dropdown-open .dropdown-content,
+.dropdown.dropdown-hover:hover .dropdown-content,
+.dropdown:not(.dropdown-hover):focus .dropdown-content,
+.dropdown:not(.dropdown-hover):focus-within .dropdown-content {
+  @apply visible opacity-100;
+}
+```
+
+---
+
+## JSX 中的多条件渲染
+
+TAG: JSX
+DATE: 2022/05/15
+
+从 TypeScript 官网看到的写法，利用对象在 JSX 中模拟 switch 语句
+
+```jsx
+<div>
+  {{
+    0: (
+      <ShowErrorsExample />
+    ),
+    1: (
+      <TypeDefinitionsExample />
+    ),
+    2: (
+      <InterfaceExample />
+    ),
+    3: (
+    <ReactExample />
+    ),
+  }[index]}
+</div>
+```
 
 ---
 
@@ -73,28 +120,37 @@ function deepClone(target, map = new Map()) {
 
 ---
 
-## JSX 中的多条件渲染
+## queueMicrotask
 
-TAG: JSX
-DATE: 2022/05/15
+TAG: JavaScript
+DATE: 2022/05/09
 
-从 TypeScript 官网看到的写法，利用对象在 JSX 中模拟 switch 语句
+`queueMicrotask(fn)` 方法可以创建一个微任务，比 `Promise.resolve()` 更好用。
 
-```jsx
-<div>
-  {{
-    0: (
-      <ShowErrorsExample />
-    ),
-    1: (
-      <TypeDefinitionsExample />
-    ),
-    2: (
-      <InterfaceExample />
-    ),
-    3: (
-    <ReactExample />
-    ),
-  }[index]}
-</div>
+[在 JavaScript 中通过 queueMicrotask() 使用微任务](https://developer.mozilla.org/zh-CN/docs/Web/API/HTML_DOM_API/Microtask_guide)
+
+---
+
+## <details> 和 <summary>
+
+TAG: HTML
+DATE: 2022/05/09
+
+在 MDN 侧边栏发现的。这两个元素配合可实现原生的 展开  ⇄ 闭合 效果。
+
+```html
+<details>
+  <summary>Details</summary>
+  Something small enough to escape casual notice.
+</details>
 ```
+
+---
+
+## Web Code Editor
+
+complex：Monaco，CodeMirror，Ace
+
+simple: react-simple-code-editor（只有简单的高亮功能）
+
+---
