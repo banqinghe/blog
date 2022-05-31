@@ -1,3 +1,23 @@
+## @supports
+
+TAG: CSS
+DATE: 2022/05/31
+
+特性查询，提供浏览器不支持某属性时的兼容方法。
+
+```css
+/* 不支持 backdrop-filter: blur() 时使用向下兼容方案 */
+@supports not (backdrop-filter: blur()) {
+  .glass {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+}
+```
+
+发现自 [https://twitter.com/Steve8708/status/1531290992782938112?s=19](https://twitter.com/Steve8708/status/1531290992782938112?s=19)
+
+---
+
 ## yocto-queue 和 p-limit
 
 TAG: JavaScript
@@ -152,5 +172,3 @@ DATE: 2022/05/09
 complex：Monaco，CodeMirror，Ace
 
 simple: react-simple-code-editor（只有简单的高亮功能）
-
----
