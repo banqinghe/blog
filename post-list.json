@@ -1,5 +1,12 @@
 [
   {
+    "title": "<textarea> 高度自适应",
+    "filename": "textarea-auto-height",
+    "date": "2022-06-06 14:30:41",
+    "pathname": "/post/textarea-auto-height",
+    "tags": ["JavaScript"]
+  },
+  {
     "title": "Service worker & Workbox Note",
     "filename": "service-worker-workbox-note",
     "date": "2022-05-29 22:03:05",

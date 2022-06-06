@@ -1,3 +1,12 @@
+## visibility: hidden
+
+TAG: CSS
+DATE: 2022/06/05
+
+`visibility: hidden` 不会阻挡元素所覆盖的元素的事件触发
+
+---
+
 ## @supports
 
 TAG: CSS
