@@ -1,5 +1,13 @@
 [
   {
+    "title": "快排、第 K 大元素",
+    "filename": "quick-sort",
+    "date": "2022-06-15 17:33:17",
+    "description": "经常处于忘记状态，然后去抄别人的实现，希望下次忘的时候可以抄自己的。",
+    "pathname": "/post/quick-sort",
+    "tags": ["Algorithm"]
+  },
+  {
     "title": "<textarea> 高度自适应",
     "filename": "textarea-auto-height",
     "date": "2022-06-06 14:30:41",
