@@ -1,3 +1,18 @@
+## toggle html class
+
+TAG: JavaScript
+DATE: 2022/06/20
+
+[`DOMTokenList.toggle()`](https://developer.mozilla.org/docs/Web/API/DOMTokenList/toggle) 方法可以 toggle `classList` 中的某个 class。
+
+```js
+function toggleHidden(element) {
+  element.classList.toggle('hidden');
+}
+```
+
+---
+
 ## visibility: hidden
 
 TAG: CSS
