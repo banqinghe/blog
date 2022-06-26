@@ -1,3 +1,14 @@
+## Element height
+
+TAG: JavaScript
+DATE: 2022/06/21
+
+`offsetHeight`: content + padding + border
+`clientHeight`: content + padding - height of horizontal scrollbar
+`getBoundingClientRect().height`: `offsetHeight` 的浮点版本
+
+---
+
 ## toggle html class
 
 TAG: JavaScript
