@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Local Todo",
+    "description": "一个 Todo 工具",
+    "icon": "https://local-todo-one.vercel.app/favicon.svg",
+    "online": "https://todo.banqinghe.com",
+    "repo": "https://github.com/banqinghe/local-todo"
+  },
+  {
+    "name": "Web Image Processing",
+    "description": "Web 端图像处理工具",
+    "icon": "https://web-image-processing.vercel.app/favicon.svg",
+    "online": "https://web-image-processing.vercel.app",
+    "repo": "https://github.com/banqinghe/web-image-processing"
+  },
+  {
+    "name": "Thresholding",
+    "description": "利用 WebGL 做图像二值化",
+    "icon": "https://thresholding.vercel.app/favicon.svg",
+    "online": "https://thresholding.vercel.app",
+    "repo": "https://github.com/banqinghe/thresholding"
+  }
+]
