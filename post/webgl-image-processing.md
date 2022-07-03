@@ -21,7 +21,7 @@ WebGL 在向一个二维的平面上绘制纹理的时候主要会经历如图�
 
 因此只需要在片元着色器里写好每个像素需要执行的逻辑，就可以愉快地完成图像处理操作了。例如，如果要进行一个最简单的反色操作，只需要在片元着色器代码中这样写：
 
-```glsl
+```
 precision mediump float;
 uniform sampler2D u_Sampler;
 varying vec2 v_TexCoord;
