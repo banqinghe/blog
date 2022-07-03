@@ -78,4 +78,4 @@ WebGL 比较费劲的操作是初始化，编译、链接着色器程序，绑�
 
 毕设项目是这个：[web-image-processing](https://github.com/banqinghe/web-image-processing)，后来还想重构一下，但是写了两天之后又搁置了（懒），不知道啥时候还能再捡起来。
 
-后来因为最近老是要搞电子签名这种东西，又做了一个原理一模一样，但是只是用来进行二值化的东西 [thresholding](https://github.com/banqinghe/web-image-processing)，这个 repo 代码质量能稍微强点（我应该是比几个月之前有所进步了）。
+后来因为最近老是要搞电子签名这种东西，又做了一个原理一模一样，但是只是用来进行二值化的东西 [thresholding](https://github.com/banqinghe/thresholding)，这个 repo 代码质量能稍微强点（我应该是比几个月之前有所进步了）。
