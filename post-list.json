@@ -1,5 +1,12 @@
 [
   {
+    "title": "WebGL 图像处理",
+    "filename": "webgl-image-processing",
+    "date": "2022-07-03 21:17:40",
+    "pathname": "/post/webgl-image-processing",
+    "tags": ["WebGL"]
+  },
+  {
     "title": "快排、第 K 大元素",
     "filename": "quick-sort",
     "date": "2022-06-15 17:33:17",
