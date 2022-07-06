@@ -1,3 +1,30 @@
+## Import maps
+
+TAG: JavaScript
+DATE: 2022/07/06
+
+react docs sandbox 下载到本地的文件使用了这一用法。通过 `type="importmap"` 的用法设置 `type="module"` 的 `import` 内容，例如：
+
+```js
+// type="importmap"
+{
+  "imports": {
+    "react": "https://cdn.skypack.dev/react",
+    "react-dom": "https://cdn.skypack.dev/react-dom"
+  }
+}
+
+// type="module"
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+
+ReactDOM.render(React.createElement(Root, null), document.getElementById('root'));
+```
+
+目前兼容性还不太好。
+
+---
+
 ## <kbd> 元素
 
 TAG: JavaScript

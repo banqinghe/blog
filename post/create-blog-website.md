@@ -4,7 +4,7 @@
 
 网站使用的框架是 [React](https://reactjs.org/)，因为实习的时候一直在用这个，熟悉一点。脚手架使用 [create-react-app](https://github.com/facebook/create-react-app)，因为除了公司内部使用的我只知道这一个（真滴捞）。
 
-仓库地址在 https://github.com/banqinghe/banqinghe.github.io
+仓库地址在 <https://github.com/banqinghe/banqinghe.github.io>
 
 ## 网站结构
 
@@ -71,8 +71,6 @@ code({node, inline, className, children, ...props}) {
 
 效果还是很不错的。
 
-
-
 ## 目录问题
 
 目录问题是最难搞的了，主要是遇到了一个奇奇怪怪的问题，花费了不少时间，并且没有解决。
@@ -92,7 +90,7 @@ const submitHeading = useCallback(({ level, children }) => {
 
 const components = useMemo(() => ({
   code({node, inline, className, children, ...props}) {
-		...
+  ...
   },
   h1: submitHeading,
   h2: submitHeading,
@@ -108,6 +106,8 @@ const components = useMemo(() => ({
 结果发现 build 之后再跑这个问题竟然就消失了，函数不再莫名其妙执行两次了……也是够离谱的，但是在本地 `yarn start` 的时候还是无法避免，会出现列表使用相同 key 的报错信息污染控制台。
 
 但是不耽误部署结果所以暂时不管了，折磨。
+
+> 2022/07/03 更：原因找到了，是因为 React 开了 StrictMode，所以 `useEffect` 的内容会在开发阶段执行两次。
 
 ## 部署
 
