@@ -1,5 +1,12 @@
 [
   {
+    "title": "React strict mode 和 纯函数组件",
+    "filename": "react-strict-mode-and-pure-function-component",
+    "date": "2022-07-31 21:54:32",
+    "pathname": "/post/react-strict-mode-and-pure-function-component",
+    "tags": ["React"]
+  },
+  {
     "title": "WebGL 图像处理",
     "filename": "webgl-image-processing",
     "date": "2022-07-03 21:17:40",
