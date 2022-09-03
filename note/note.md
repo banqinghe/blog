@@ -1,3 +1,21 @@
+## fetch catch
+
+TAG: JavaScript
+DATE: 2022/09/03
+
+`fetch` 遇到网络错误时，返回的 promise 会被 reject。但是 404 的 response 不被认为是网络错误，所以无法触发 `catch`。
+
+---
+
+## nth-of-type
+
+TAG: CSS
+DATE: 2022/09/03
+
+`nth-of-type` 针对的是**标签**选择器，不支持 class、id 选择。
+
+---
+
 ## Import maps
 
 TAG: JavaScript
