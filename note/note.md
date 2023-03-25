@@ -1,3 +1,16 @@
+## resize observer
+
+TAG: JavaScript
+DATE: 2023/03/05
+
+`resize` 事件监听只有在 `window` 上才有效，要监听某个元素的尺寸变化的话需要在 `window` 的 `resize` 回调里用 `getBoundingClientRect()` 这种形式。
+
+
+`ResizeObserver` 允许我们直接观察特定元素的变化。
+
+---
+
+
 ## fetch catch
 
 TAG: JavaScript
