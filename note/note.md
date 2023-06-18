@@ -1,3 +1,18 @@
+## template.content
+
+TAG: JavaScript
+DATE: 2023/06/18
+
+定义 `<template>` 标签，然后使用这样的操作：
+
+```javascript
+const element = template.content.firstElementChild.cloneNode(true);
+```
+
+就可以快捷地创建多个 DOM 树，比一个个 `document.createElement()` 快很多, 也比 `innerHTML` 优雅一点。这是 Web Component 的方式，但是平时应该也有用。
+
+---
+
 ## resize observer
 
 TAG: JavaScript
